@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* height: 100%; */
+}
+
+html {
+    font-family: "Bebas Neue";
+}
+
+.container{
+    background-image: url('/img/bg_character.jpg');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: rgb(66,39,160);
+    background: linear-gradient(0deg, rgba(66,39,160,0.5495448179271709) 0%, rgba(12,16,39,1) 100%);
+    border-bottom: 0.05rem solid white;
+}
+
+/* JAVASCRIPT PARA DIMINUIR TAMANHO DO HEADER QUANDO SCROLAR */
+
+/* .container header-fixed {
+    position: fixed;
+    height: 3.5rem;
+    padding: 0rem;
+} */
+
+
+.container header a, i, button {
+    /* height: auto; */
+    color: white;
+}
+
+.container span {
+    font-size: 0.6rem;
+}
+
+.container header a span{
+    color: #D6B424;
+}
+
+.container header .logo {
+    width: 12rem;
+    height: 2rem;
+    margin-right: 3rem;
+}
+
+.container header button {
+    width: 10rem;
+    height: 2.5rem;
+    background: rgb(69,15,139);
+    background: radial-gradient(circle, rgba(69,15,139,1) 0%, rgba(186,39,195,1) 100%);
+    font-family: "Kode Mono";
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: 0.05rem solid white;
+}
+
+.container main{
+    width: 100%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.container main h1 {
+    font-family: "Chakra Petch";
+    font-size: 7rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+}
+
+.container main .personagens {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container main img {
+    width: 28rem;
+    position: relative;
+    /* border: 1px solid white; */
+}
+
+
+.container main .personagens .p1 {
+    
+}
+
+/* footer {
+    width: 100%;
+    height: 2rem;
+    background-color: red;
+} */
+
+
+
+
+
+
+
+
+
