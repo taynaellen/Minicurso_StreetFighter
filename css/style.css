@@ -19,6 +19,7 @@ html {
 }
 
 .container header {
+    transition: 0.5s;
     position: fixed;
     display: flex;
     align-items: center;
