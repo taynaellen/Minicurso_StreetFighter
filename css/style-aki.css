@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* height: 100%; */
+}
+
+html {
+    font-family: "Bebas Neue";
+}
+
+body {
+    background-color: black;
+}
+
+.container{
+    background-image: url('/img/bg_aki.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .aki-bg {
+    width: 75rem;
+    border: 1px solid white;
+}
+
+.container header {
+    transition: 0.5s;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: rgb(66,39,160);
+    background: linear-gradient(0deg, rgba(66,39,160,0.5495448179271709) 0%, rgba(12,16,39,1) 100%);
+    border-bottom: 0.05rem solid white;
+    z-index: 1;
+}
+
+.container header a, i, button {
+    /* height: auto; */
+    color: white;
+}
+
+.container span {
+    font-size: 0.6rem;
+}
+
+.container header a span{
+    color: #D6B424;
+}
+
+.container header .logo {
+    width: 12rem;
+    height: 2rem;
+    margin-right: 3rem;
+}
+
+.container header button {
+    width: 10rem;
+    height: 2.5rem;
+    background: rgb(69,15,139);
+    background: radial-gradient(circle, rgba(69,15,139,1) 0%, rgba(186,39,195,1) 100%);
+    font-family: "Kode Mono";
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: 0.05rem solid white;
+}

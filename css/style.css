@@ -32,6 +32,7 @@ html {
     background: rgb(66,39,160);
     background: linear-gradient(0deg, rgba(66,39,160,0.5495448179271709) 0%, rgba(12,16,39,1) 100%);
     border-bottom: 0.05rem solid white;
+    z-index: 1;
 }
 
 /* JAVASCRIPT PARA DIMINUIR TAMANHO DO HEADER QUANDO SCROLAR */
@@ -85,6 +86,12 @@ html {
     font-family: "Chakra Petch";
     font-size: 7rem;
     font-weight: 700;
+    transform: translateY(40%);
+    transition: opacity 0.5s, transform 1s;
+}
+
+.container main h1.transicaoh1{
+    transform: translateY(0);
 }
 
 .container main .titulo {
@@ -100,6 +107,7 @@ html {
 .container main .titulo img {
     width: 10rem;
 }
+
 
 .container main .titulo .servico {
     background-color: rgba(8, 34, 65, 0.5);
@@ -122,7 +130,13 @@ html {
 .container main .personagens img {
     position: relative;
     width: 28rem;
+    transform: translateX(15%);
+    transition: opacity 0.5s, transform 1s;
     /* border: 1px solid white; */
+}
+
+.container main .personagens img.transicaoimg {
+    transform: translateX(0);
 }
 
 .container main .personagens .p1 {
@@ -140,26 +154,6 @@ html {
 .container main .personagens .p4 {
     right: 15rem
 }
-
-
-/* transform */
-
-
-
-
-
-
-/* .container main .personagens .p1 {
-    position: relative;
-    right: 1rem;
-    left: 1rem;
-} */
-
-/* footer {
-    width: 100%;
-    height: 2rem;
-    background-color: red;
-} */
 
 
 
