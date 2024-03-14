@@ -78,14 +78,37 @@ html {
     padding-left: 3rem;
 }
 
+
 .container main h1 {
     font-family: "Chakra Petch";
     font-size: 7rem;
     font-weight: 700;
-    color: white;
+}
+
+.container main .titulo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 5rem;
     margin-top: 10rem;
+    color: white;
 }
+
+.container main .titulo img {
+    width: 10rem;
+}
+
+.container main .titulo .servico {
+    background-color: rgba(8, 34, 65, 0.5);
+    border: 0.01rem solid grey;
+    width: 25rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 .container main .personagens {
     width: 100%;
@@ -95,15 +118,24 @@ html {
 }
 
 .container main img {
-    width: 28rem;
+    width: 25rem;
     position: relative;
-    /* border: 1px solid white; */
+    border: 1px solid white;
 }
 
 
-.container main .personagens .p1 {
-    
-}
+/* transform */
+
+
+
+
+
+
+/* .container main .personagens .p1 {
+    position: relative;
+    right: 1rem;
+    left: 1rem;
+} */
 
 /* footer {
     width: 100%;
