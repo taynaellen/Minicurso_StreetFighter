@@ -72,10 +72,11 @@ html {
     border: 0.05rem solid white;
 }
 
-.container main{
+.container main {
     width: 100%;
     padding-right: 3rem;
     padding-left: 3rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -117,10 +118,26 @@ html {
     justify-content: space-around;
 }
 
-.container main img {
-    width: 25rem;
+.container main .personagens img {
     position: relative;
-    border: 1px solid white;
+    width: 28rem;
+    /* border: 1px solid white; */
+}
+
+.container main .personagens .p1 {
+    left: 15rem
+}
+
+.container main .personagens .p2 {
+    left: 5rem
+}
+
+.container main .personagens .p3 {
+    right: 5rem
+}
+
+.container main .personagens .p4 {
+    right: 15rem
 }
 
 
