@@ -10,12 +10,17 @@ html {
     font-family: "Bebas Neue";
 }
 
+body {
+    background-color: black;
+}
 .container{
     background-image: url('/img/bg_character.jpg');
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 5rem;
 }
 
 .container header {
@@ -133,7 +138,9 @@ html {
     transform: translateX(15%);
     transition: opacity 0.5s, transform 1s;
     /* border: 1px solid white; */
+    clip-path: polygon(184px 0, 100% 0, 265px 100%, 1px 100%)
 }
+
 
 .container main .personagens img.transicaoimg {
     transform: translateX(0);
