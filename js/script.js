@@ -54,3 +54,21 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.p3').classList.add('transicaoimg');
     document.querySelector('.p4').classList.add('transicaoimg');
 });
+
+
+
+// Dar play e pause no audio 
+const audio = document.getElementById('audioid');
+const playimg = document.getElementById('playimg');
+
+function playPlause() {
+    if (audio.paused) {
+    audio.play();
+    botao.textContent = 'Pause';
+}   
+    else {
+    audio.pause();
+    botao.textContent = 'Play';
+}
+}
+

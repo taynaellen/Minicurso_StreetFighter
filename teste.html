@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #audioPlayer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#audioPlayer audio {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+</style>
+
+<body>
+    <audio id="meuAudio" controls>
+        <source src="/audio/box-aki.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <button id="botao" onclick="playPlause()">Play</button>
+    <!-- <button onclick="pauseAudio()">Pause</button> -->
+    
+    <script>
+        const meuAudio = document.getElementById('meuAudio');
+        const botao = document.getElementById('botao');
+
+function playPlause() {
+    if (meuAudio.paused) {
+    meuAudio.play();
+    botao.textContent = 'Pause';
+}   
+    else {
+    meuAudio.pause();
+    botao.textContent = 'Play';
+}
+}
+
+    </script>
+</body>
+</html>
