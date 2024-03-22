@@ -57,18 +57,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// Dar play e pause no audio 
+// Dar play e pause no audio
 const audio = document.getElementById('audioid');
 const playimg = document.getElementById('playimg');
 
-function playPlause() {
+playimg.addEventListener('click', playPause);
+
+function playPause() {
     if (audio.paused) {
     audio.play();
-    botao.textContent = 'Pause';
+    playimg.src = "/img/btn_theme_active.png";
 }   
     else {
     audio.pause();
-    botao.textContent = 'Play';
-}
-}
-
+    playimg.src = "/img/btn_theme_play.png";
+}}

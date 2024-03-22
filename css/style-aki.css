@@ -152,22 +152,11 @@ body {
 
 .container main .musica audio {
     height: 2rem;
-    background-color: pink;
-    /* background: none; */
-}
-
-.container main .musica audio source {
     background-color: red;
-    background: green;
-
 }
 
-.container main .musica button {
-    background-image: url(/img/btn_theme_play.png);
-    background-size: cover;
+.container main .musica img {
     width: 6rem;
-    height: 6rem;
-    border: 1px solid black;
 }
 
 
