@@ -79,7 +79,7 @@ body {
     font-family: "Kode Mono";
     font-size: 1.6rem;
     font-weight: 700;
-    border: 0.05rem solid white;
+    /* border: 0.05rem solid white; */
 }
 
 .container main {
@@ -133,6 +133,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* border: 1px solid white; */
 }
 
 
@@ -151,19 +152,19 @@ body {
 }
 
 .container main .personagens .p1 {
-    left: 15rem
-}
-
-.container main .personagens .p2 {
     left: 5rem
 }
 
-.container main .personagens .p3 {
+.container main .personagens .p2 {
     right: 5rem
 }
 
-.container main .personagens .p4 {
+.container main .personagens .p3 {
     right: 15rem
+}
+
+.container main .personagens .p4 {
+    right: 25rem
 }
 
 

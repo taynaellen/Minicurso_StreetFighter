@@ -25,14 +25,14 @@
         <source src="/audio/box-aki.mp3" type="audio/mpeg">
         Seu navegador não suporta o elemento de áudio.
     </audio>
-    <button id="botao" onclick="playPlause()">Play</button>
+    <button id="botao" onclick="playPause()">Play</button>
     <!-- <button onclick="pauseAudio()">Pause</button> -->
     
     <script>
         const meuAudio = document.getElementById('meuAudio');
         const botao = document.getElementById('botao');
 
-function playPlause() {
+function playPause() {
     if (meuAudio.paused) {
     meuAudio.play();
     botao.textContent = 'Pause';
